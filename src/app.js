@@ -49,7 +49,7 @@ const getRandomType = (i) => {
   if (i == 0) {
     heroCount++;
     return "hero";
-  }
+  }  
 
     // when i>0, rest all are villains
   var random = Math.floor(Math.random() * type.length);
