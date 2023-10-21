@@ -91,8 +91,7 @@ describe("Building player blocks", function () {
     let players = initPlayers(TEST_PLAYERS);
     let fragment = buildPlayers(players, 'hero');
     fragment = fragment.replace(/\s/g, "");
-    let expectedFragment = `
-    <div class="player">
+    let expectedFragment = `<div class="player">
         <img src="${players[0].image}" alt="">
         <div class="name">${players[0].name}</div>
         <div class="strength">${players[0].strength}</div>
